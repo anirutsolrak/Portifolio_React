@@ -9,6 +9,7 @@ import ListItemText from '@mui/material/ListItemText';
 import HabilidadesItens from '../Itens/HabilidadesItens';
 import IdiomasItens from '../Itens/IdiomasItens';
 import Button from '@mui/material/Button';
+import curriculo from '../../assets/curriculo.pdf'
 
 const Curriculo = () => {
   return (
@@ -138,7 +139,7 @@ const Curriculo = () => {
             color: '#000000',
             marginTop: '20px',
           }}
-          href="curriculo.pdf"
+          href={curriculo}
           download
         >
           BAIXAR CV

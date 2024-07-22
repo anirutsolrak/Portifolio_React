@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-//import me from 'https://github.com/anirutsolrak/portifolioV3/blob/main/me.jpg';
+import me from '../../assets/me.jpg'
 
 const Main = () => {
   return (
@@ -19,8 +19,8 @@ const Main = () => {
     >
       <Grid item xs={12} md={6} sx={{ textAlign: 'center' }}>
         <img
-          //src={me}
-          src="./Public/me.jpg"
+          src={me}
+          //src="../assets/me.jpg"
           alt="Foto de Perfil"
           style={{
             width: '200px',

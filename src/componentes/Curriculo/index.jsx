@@ -46,7 +46,7 @@ const Curriculo = () => {
                 ]}
               />
               <ExperienciaItens
-                dates="11/09/2019 - Atualmente"
+                dates="11/09/2019 - 17/07/2024"
                 title="Digitador"
                 company="LABORATÓRIO DE PATOLOGIA CIRÚRGICA DR. FERDINANDO QUEIROZ COSTA LTDA"
                 description={[

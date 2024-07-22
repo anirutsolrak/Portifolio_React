@@ -112,6 +112,24 @@ const Curriculo = () => {
                 institution="Alura (40 horas)"
                 description="Desenvolvimento de carreira, transição para a área de tecnologia e propósito profissional."
               />
+              <EducacaoItens
+                dates="29 de Janeiro de 2024 - 15 de Junho de 2024"
+                title="Formação Empreendedorismo, Agilidade e Protagonismo"
+                institution="Oracle Next Education + Alura"
+                description="Desenvolvimento de habilidades e conhecimentos para empreender, com foco em agilidade e protagonismo." // Descrição adicionada
+              />
+              <EducacaoItens
+                dates="29 de Janeiro de 2024 - 15 de Junho de 2024"
+                title="Formação Front End"
+                institution="Oracle Next Education + Alura"
+                description="Construção de interfaces web responsivas e eficientes, com foco em HTML, CSS e JavaScript." // Descrição adicionada
+              />
+              <EducacaoItens
+                dates="29 de Janeiro de 2024 - 15 de Junho de 2024"
+                title="Formação React"
+                institution="Oracle Next Education + Alura"
+                description="Domínio do framework React para desenvolvimento de aplicações web interativas e escaláveis." // Descrição adicionada
+              />
             </List>
           </div>
           <HabilidadesItens
@@ -123,6 +141,7 @@ const Curriculo = () => {
               'Google IA Studio & Google Colab (Inteligência artificial e análise de dados)',
               'jsPDF & AutoTable (Geração de documentos PDF dinâmicos)',
               'DASH (Python) (Aplicações analíticas web)',
+              'React (Framework JavaScript para desenvolvimento de interfaces de usuário)', 
             ]}
           />
           <IdiomasItens
